@@ -29,7 +29,7 @@
 </v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 <v t="amd.20150920030003.1"><vh>IPython notebook 整合</vh></v>
-<v t="amd.20150919112710.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20150919112710.1"><vh>@path pelican</vh>
 <v t="amd.20150919113340.1"><vh>以下為與 pelican 有關的設定檔案</vh></v>
 <v t="amd.20150919113132.1"><vh>@edit publishconf.py</vh></v>
 </v>
@@ -38,6 +38,7 @@
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
+<v t=".20151007175134.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
@@ -284,7 +285,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -295,6 +296,21 @@
 </v>
 </v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t=".20151007175259.1" a="E"><vh>@clean simplest2.html</vh>
+<v t=".20151007175259.2"><vh>檔案說明</vh></v>
+<v t=".20151007175259.3" a="E"><vh>html 標註</vh>
+<v t=".20151007175259.4" a="E"><vh>body 標註</vh>
+<v t=".20151007175259.5" a="E"><vh>div class="reveal"</vh>
+<v t=".20151007175259.6" a="E"><vh>div class="slides"</vh>
+<v t=".20151007175259.7"><vh>有關我的作業</vh></v>
+<v t=".20151007175259.8"><vh>心得</vh></v>
+<v t=".20151007175321.1"><vh>作業任務一</vh></v>
+</v>
+</v>
+<v t=".20151007175259.9"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -492,6 +508,78 @@
 </v>
 </vnodes>
 <tnodes>
+<t tx=".20151007175259.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx=".20151007175259.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx=".20151007175259.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx=".20151007175259.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx=".20151007175259.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx=".20151007175259.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx=".20151007175259.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h2&gt;四設二乙&lt;/h2&gt;
+    &lt;p&gt;40323232 張家瑀&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx=".20151007175259.8">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;p&gt;本次作業用程式畫圖，操作上並不困難，在同學的引導和幫助下我成功地完成了這次的作業&lt;/p&gt;
+
+&lt;/section&gt;
+				
+</t>
+<t tx=".20151007175259.9">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx=".20151007175321.1">&lt;section id="hw-task-one"&gt;
+    &lt;h2&gt;自評&lt;/h2&gt;
+    &lt;p&gt;這次作業我給自己的分數是75分&lt;/p&gt;
+
+&lt;/section&gt;
+				
+</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
