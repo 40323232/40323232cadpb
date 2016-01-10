@@ -10,17 +10,17 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
-<v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
+<v t="amd.20150915153206.1"><vh>專案說明</vh>
 <v t="amd.20150919102209.1" a="E"><vh>使用工具</vh>
 <v t="amd.20150919112415.1"><vh>影片檔案</vh></v>
 </v>
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -205,7 +205,7 @@
 </v>
 </v>
 </v>
-<v t="123.20160110172555.101"><vh>@clean simplest10.html</vh>
+<v t="123.20160110172555.101" a="E"><vh>@clean simplest10.html</vh>
 <v t="123.20160110172555.102"><vh>檔案說明</vh></v>
 <v t="123.20160110172555.103" a="E"><vh>html 標註</vh>
 <v t="123.20160110172555.104" a="E"><vh>body 標註</vh>
@@ -223,7 +223,7 @@
 </v>
 </v>
 </v>
-<v t="123.20160110172555.112"><vh>@clean simplest11.html</vh>
+<v t="123.20160110172555.112" a="E"><vh>@clean simplest11.html</vh>
 <v t="123.20160110172555.113"><vh>檔案說明</vh></v>
 <v t="123.20160110172555.114" a="E"><vh>html 標註</vh>
 <v t="123.20160110172555.115" a="E"><vh>body 標註</vh>
@@ -241,7 +241,7 @@
 </v>
 </v>
 </v>
-<v t="123.20160110172555.123"><vh>@clean simplest12.html</vh>
+<v t="123.20160110172555.123" a="E"><vh>@clean simplest12.html</vh>
 <v t="123.20160110172555.124"><vh>檔案說明</vh></v>
 <v t="123.20160110172555.125" a="E"><vh>html 標註</vh>
 <v t="123.20160110172555.126" a="E"><vh>body 標註</vh>
@@ -403,7 +403,7 @@
 
     &lt;h2&gt;自評&lt;/h2&gt;
     &lt;p&gt;這個禮拜是小組一起分工，畫完所有零件必且把零件全部組合起來，
-組合零件參考同學的影片順利畫完了。
+如果和組員同時畫圖不會出問題。
 
 &lt;/p&gt;
     &lt;br&gt;
@@ -569,7 +569,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40323232"; }&lt;/style&gt
 
     &lt;h2&gt;期末心得&lt;/h2&gt;
     &lt;p&gt;
-這學期學會用3介面畫圖，然後可以和同學一起分工合作，畫圖還會有紀錄，真的學到很多，希望下學期可以更用心學習
+這學期學會用3種介面畫圖，然後可以和同學一起分工合作，畫圖還會有紀錄，真的學到很多，希望下學期可以更用心學習
 &lt;/p&gt;
     &lt;br&gt;
     &lt;p&gt;最後自評分數:70&lt;/p&gt;
